@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 public class MyAdditionClass extends HttpServlet{
 public void service(HttpServletRequest req,HttpServletResponse res) throws IOException
 {
+	int a;
 	int x=Integer.parseInt(req.getParameter("n1"));
 	int y=Integer.parseInt(req.getParameter("n2"));
 	String b=req.getParameter("cal");
